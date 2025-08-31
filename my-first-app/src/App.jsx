@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className="card">
-      is Active : {isActive ? 'Yes' : 'No'}
+      is Active : {isActive ? 'Yes!' : 'No!!'}
       <button onClick={() => setIsActive(!isActive)}>Toggle Active</button>
       </div>
     </>
